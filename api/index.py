@@ -148,7 +148,7 @@ def title_data():
 
 
 # covid's nonce validation, prevents the usage of unauthorized apps
-# unused as it always fails for some reason and i cant figure out why
+# unused as it always fails for some reason and i cant figure out why lol
 def validate_nonce(user_id: str, nonce: str):
     url1 = f"https://graph.oculus.com/user_nonce_validate?nonce={nonce}&user_id={user_id}&access_token={app_credentials_1}"
     url2 = f"https://graph.oculus.com/user_nonce_validate?nonce={nonce}&user_id={user_id}&access_token={app_credentials_2}"
